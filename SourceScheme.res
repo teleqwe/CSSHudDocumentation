@@ -17,22 +17,22 @@ Scheme
 	// this is a list of all the colors used by the scheme
 	Colors
 	{
-		"White"					"255 255 255 255"
+		"White"				"255 255 255 255"
 		"TransparentBlack"		"5 5 5 100"
 		"TransparentBlack2"		"5 5 5 50"
-		"Blank"					"0 0 0 0"	
-		"Red"					"255 0 0 255"
-		"Green"					"0 255 0 255"
-		"Blue"					"0 0 255 255"
-		"Yellow"				"255 255 0 255"
-		"Grey"					"100 100 100 100"
-		"DullGrey"				"30 30 30 245"
-		"Purple"				"173 151 227 255"
+		"Blank"				"0 0 0 0"	
+		"Red"				"255 0 0 255"
+		"Green"				"0 255 0 255"
+		"Blue"				"0 0 255 255"
+		"Yellow"			"255 255 0 255"
+		"Grey"				"100 100 100 100"
+		"DullGrey"			"30 30 30 245"
+		"Purple"			"173 151 227 255"
 		"PurpleDull"			"173 151 227 128"
 		"PurpleVeryDull"		"173 151 227 5"
-		"Black2"					"0 0 0 170"
-		"Black"					"0 0 0 255"
-		"Black3"				"0 0 0 220"
+		"Black2"			"0 0 0 170"
+		"Black"				"0 0 0 255"
+		"Black3"			"0 0 0 220"
 		"typhoonpink"			"251 160 227 255"
 		
 	}
@@ -44,140 +44,140 @@ Scheme
 	BaseSettings
 	{
 		Border.Bright						"typhoonpink"					// top left border for menus	
-		Border.Dark							"typhoonpink"					// bottom right border for menus
-		Border.Selection					"Blank"							// extra thick border used on misc buttons
+		Border.Dark						"typhoonpink"					// bottom right border for menus
+		Border.Selection					"Blank"						// extra thick border used on misc buttons
 
-		Button.TextColor					"White"							// button text (add server, refresh button, connect)
+		Button.TextColor					"White"						// button text (add server, refresh button, connect)
 		Button.BgColor						"TransparentBlack2"				// button fill
-		Button.ArmedTextColor				"White"							// button text hover	
+		Button.ArmedTextColor					"White"						// button text hover	
 		Button.ArmedBgColor					"TransparentBlack2"				// button hover 
-		Button.DepressedTextColor			"White"							// misc button pressed down			
-		Button.DepressedBgColor				"TransparentBlack2"				// misc button background pressed down
-		Button.FocusBorderColor				"Green"
+		Button.DepressedTextColor				"White"						// misc button pressed down			
+		Button.DepressedBgColor					"TransparentBlack2"				// misc button background pressed down
+		Button.FocusBorderColor					"Green"
 
-		CheckButton.TextColor				"White"							// random menu text 1
-		CheckButton.SelectedTextColor		"White"							// menu text with no highlight
-		CheckButton.BgColor					"Blank"							// checkbox background fill
-		CheckButton.Border1  				"typhoonpink"					// top left checkbutton border
-		CheckButton.Border2  				"typhoonpink"					// bottom right checkbutton border
-		CheckButton.Check					"White"							// color of the check itself
-		CheckButton.HighlightFgColor		"White"							// menu text highlight
-		CheckButton.DepressedBgColor		"Blank"							// simplified button fill
-		CheckButton.DisabledBgColor	  	 	"Blank"							// 
+		CheckButton.TextColor					"White"						// random menu text 1
+		CheckButton.SelectedTextColor				"White"						// menu text with no highlight
+		CheckButton.BgColor					"Blank"						// checkbox background fill
+		CheckButton.Border1  					"typhoonpink"					// top left checkbutton border
+		CheckButton.Border2  					"typhoonpink"					// bottom right checkbutton border
+		CheckButton.Check					"White"						// color of the check itself
+		CheckButton.HighlightFgColor				"White"						// menu text highlight
+		CheckButton.DepressedBgColor				"Blank"						// simplified button fill
+		CheckButton.DisabledBgColor	  	 		"Blank"						// 
 
-		ComboBoxButton.ArrowColor			"White"							// menu dropdown arrow
-		ComboBoxButton.ArmedArrowColor		"White"							// menu dropdown arrow hover
-		ComboBoxButton.BgColor				"TransparentBlack"				// menu dropdown arrow box fill
-		ComboBoxButton.DisabledBgColor		"TransparentBlack"				// obscure arrow box fill
+		ComboBoxButton.ArrowColor				"White"						// menu dropdown arrow
+		ComboBoxButton.ArmedArrowColor				"White"						// menu dropdown arrow hover
+		ComboBoxButton.BgColor					"TransparentBlack"				// menu dropdown arrow box fill
+		ComboBoxButton.DisabledBgColor				"TransparentBlack"				// obscure arrow box fill
 
-		Frame.TitleTextInsetX				16								// menu text positions ( leave this default)		
-		Frame.ClientInsetX					8								// menu text positions ( leave this default)
-		Frame.ClientInsetY					6								// menu text positions ( leave this default)
-		Frame.BgColor						"Black3"						// server browser back panel fill					
-		Frame.OutOfFocusBgColor				"Black3"						// server browser when out of focus	
-		Frame.FocusTransitionEffectTime		"0.05"							// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime			"0.05"							// time it takes for a window to fade in/out on open/close
+		Frame.TitleTextInsetX					16						// menu text positions ( leave this default)		
+		Frame.ClientInsetX					8						// menu text positions ( leave this default)
+		Frame.ClientInsetY					6						// menu text positions ( leave this default)
+		Frame.BgColor						"Black3"					// server browser back panel fill					
+		Frame.OutOfFocusBgColor					"Black3"					// server browser when out of focus	
+		Frame.FocusTransitionEffectTime				"0.05"						// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime				"0.05"						// time it takes for a window to fade in/out on open/close
 		FrameGrip.Color1					"typhoonpink"					// resize drag bottom right
-		FrameGrip.Color2					"Blank"							// resize drag bottom right drop shadow
-		FrameTitleButton.FgColor			"White"							// cross in box colour
-		FrameTitleButton.BgColor			"Blank"							// cross box fill
-		FrameTitleButton.DisabledFgColor	"White"							// cross when out of focus
-		FrameTitleButton.DisabledBgColor	"Blank"							// cross box fill  when out of focus
-		FrameSystemButton.FgColor			"Blank"							// weird dropdown menu from top left ( just leave Blank )
-		FrameSystemButton.BgColor			"Blank"							// weird dropdown menu from top left ( just leave Blank )
-		FrameSystemButton.Icon				""								// icon for weird dropdown
-		FrameSystemButton.DisabledIcon		""								// icon for weird dropdown
-		FrameTitleBar.Font					"UiBold"						// text top left of menus
-		FrameTitleBar.TextColor				"White"							// menu top bar text 
-		FrameTitleBar.BgColor				"Blank"							// menu top bar background fill
-		FrameTitleBar.DisabledTextColor		"White"							// menu top bar text out of focus
-		FrameTitleBar.DisabledBgColor		"Blank"							// menu top bar background fill out of focus
+		FrameGrip.Color2					"Blank"						// resize drag bottom right drop shadow
+		FrameTitleButton.FgColor				"White"						// cross in box colour
+		FrameTitleButton.BgColor				"Blank"						// cross box fill
+		FrameTitleButton.DisabledFgColor			"White"						// cross when out of focus
+		FrameTitleButton.DisabledBgColor			"Blank"						// cross box fill  when out of focus
+		FrameSystemButton.FgColor				"Blank"						// weird dropdown menu from top left ( just leave Blank )
+		FrameSystemButton.BgColor				"Blank"						// weird dropdown menu from top left ( just leave Blank )
+		FrameSystemButton.Icon					""						// icon for weird dropdown
+		FrameSystemButton.DisabledIcon				""						// icon for weird dropdown
+		FrameTitleBar.Font					"UiBold"					// text top left of menus
+		FrameTitleBar.TextColor					"White"						// menu top bar text 
+		FrameTitleBar.BgColor					"Blank"						// menu top bar background fill
+		FrameTitleBar.DisabledTextColor				"White"						// menu top bar text out of focus
+		FrameTitleBar.DisabledBgColor				"Blank"						// menu top bar background fill out of focus
 	
-		Label.TextDullColor					"White" 						// random menu text 2
-		Label.TextColor						"White" 						// random menu text 3
-		Label.SelectedTextColor				"White" 						// selected dropdown title text
-		Label.BgColor						"Blank" 						// bottom title bar ( best to just leave blank ) 
-		Label.DisabledFgColor1				"White"							// the dropshadow of disabled options labels
-		Label.DisabledFgColor2				"Blank" 						// the font color of disabled options labels
-		Label.TextBrightColor				"White"							// text that says Lost connection to server
+		Label.TextDullColor					"White" 					// random menu text 2
+		Label.TextColor						"White" 					// random menu text 3
+		Label.SelectedTextColor					"White" 					// selected dropdown title text
+		Label.BgColor						"Blank" 					// bottom title bar ( best to just leave blank ) 
+		Label.DisabledFgColor1					"White"						// the dropshadow of disabled options labels
+		Label.DisabledFgColor2					"Blank" 					// the font color of disabled options labels
+		Label.TextBrightColor					"White"						// text that says Lost connection to server
 
-		ListPanel.TextColor					"White"							// server browser text
-		ListPanel.BgColor					"Black2"						// inside server browser background fill
-		ListPanel.SelectedTextColor			"White"							// selected text
-		ListPanel.SelectedBgColor			"typhoonpink"					// selected server fill
-		ListPanel.SelectedOutOfFocusBgColor	"typhoonpink"					// selected server fill out of focus
-		ListPanel.EmptyListInfoTextColor	"White"							// server not responding text
+		ListPanel.TextColor					"White"						// server browser text
+		ListPanel.BgColor					"Black2"					// inside server browser background fill
+		ListPanel.SelectedTextColor				"White"						// selected text
+		ListPanel.SelectedBgColor				"typhoonpink"					// selected server fill
+		ListPanel.SelectedOutOfFocusBgColor			"typhoonpink"					// selected server fill out of focus
+		ListPanel.EmptyListInfoTextColor			"White"						// server not responding text
 
-		Menu.TextColor						"White"							// right click menu text
-		Menu.BgColor						"Black3"						// right click menu text background fill
-		Menu.ArmedTextColor					"White"							// right click menu text on hover
+		Menu.TextColor						"White"						// right click menu text
+		Menu.BgColor						"Black3"					// right click menu text background fill
+		Menu.ArmedTextColor					"White"						// right click menu text on hover
 		Menu.ArmedBgColor					"typhoonpink"					// right click menu text background fill on hover
 
-		Panel.BgColor						"Blank"							// server browser middle panel fill
+		Panel.BgColor						"Blank"						// server browser middle panel fill
 
 		ProgressBar.FgColor					"typhoonpink"					// loading screen bars
-		ProgressBar.BgColor					"Blank"							// loading screen bar background (behind bars)
+		ProgressBar.BgColor					"Blank"						// loading screen bar background (behind bars)
 
-		PropertySheet.TextColor				"White"							// server browser tab text
-		PropertySheet.SelectedTextColor		"White"							// server browser tab text selected
-		PropertySheet.TransitionEffectTime	"0.25"							// time to change from one tab to another
+		PropertySheet.TextColor					"White"						// server browser tab text
+		PropertySheet.SelectedTextColor				"White"						// server browser tab text selected
+		PropertySheet.TransitionEffectTime			"0.25"						// time to change from one tab to another
 
 		RichText.BgColor					"TransparentBlack"				// console background
-		RichText.SelectedTextColor			"White"							// console text	when highlighted
-		RichText.SelectedBgColor			"typhoonpink"					// console text highlight fill
+		RichText.SelectedTextColor				"White"						// console text	when highlighted
+		RichText.SelectedBgColor				"typhoonpink"					// console text highlight fill
 
-		ScrollBar.Wide						"17"							// scroll bar width
-		ScrollBarButton.FgColor				"White"							// scroll bar box arrow
-		ScrollBarButton.BgColor				"Blank"							// scroll bar box fill
-		ScrollBarButton.ArmedFgColor		"White"							// scroll bar arrow on hover
-		ScrollBarButton.ArmedBgColor		"Blank"							// scroll bar box fill on hover
-		ScrollBarButton.DepressedFgColor	"White"							// scroll bar arrow on click down
-		ScrollBarButton.DepressedBgColor	"Blank"							// scroll bar click down box fill
+		ScrollBar.Wide						"17"						// scroll bar width
+		ScrollBarButton.FgColor					"White"						// scroll bar box arrow
+		ScrollBarButton.BgColor					"Blank"						// scroll bar box fill
+		ScrollBarButton.ArmedFgColor				"White"						// scroll bar arrow on hover
+		ScrollBarButton.ArmedBgColor				"Blank"						// scroll bar box fill on hover
+		ScrollBarButton.DepressedFgColor			"White"						// scroll bar arrow on click down
+		ScrollBarButton.DepressedBgColor			"Blank"						// scroll bar click down box fill
 
-		ScrollBarSlider.FgColor				"Blank"							// scroll bar 
-		ScrollBarSlider.BgColor				"Blank"							// scroll bar background
+		ScrollBarSlider.FgColor					"Blank"						// scroll bar 
+		ScrollBarSlider.BgColor					"Blank"						// scroll bar background
 
-		SectionedListPanel.HeaderTextColor	"White"							// keybind title text
-		SectionedListPanel.HeaderBgColor	"Green"							// idk 
-		SectionedListPanel.DividerColor		"typhoonpink"					// bar under keybind title
-		SectionedListPanel.TextColor		"Green"							// idk
-		SectionedListPanel.BrightTextColor	"White"							// keybind text
-		SectionedListPanel.BgColor			"TransparentBlack"				// keybind panel fill
-		SectionedListPanel.SelectedTextColor			"White"				// selected text
-		SectionedListPanel.SelectedBgColor				"Black2"			// selected text background fill
-		SectionedListPanel.OutOfFocusSelectedTextColor	"White"				// text when out of focus
-		SectionedListPanel.OutOfFocusSelectedBgColor	"TransparentBlack"  // text background fill out of focus
+		SectionedListPanel.HeaderTextColor			"White"						// keybind title text
+		SectionedListPanel.HeaderBgColor			"Green"						// idk 
+		SectionedListPanel.DividerColor				"typhoonpink"					// bar under keybind title
+		SectionedListPanel.TextColor				"Green"						// idk
+		SectionedListPanel.BrightTextColor			"White"						// keybind text
+		SectionedListPanel.BgColor				"TransparentBlack"				// keybind panel fill
+		SectionedListPanel.SelectedTextColor			"White"						// selected text
+		SectionedListPanel.SelectedBgColor			"Black2"					// selected text background fill
+		SectionedListPanel.OutOfFocusSelectedTextColor		"White"						// text when out of focus
+		SectionedListPanel.OutOfFocusSelectedBgColor		"TransparentBlack" 				 // text background fill out of focus
 
 		Slider.NobColor						"typhoonpink"					// slider drag nob
-		Slider.TextColor					"White"							// slider text and lines
-		Slider.TrackColor					"Black2"						// slider bar fill
-		Slider.DisabledTextColor1			"typhoonpink"					// disabled joystick slider
-		Slider.DisabledTextColor2			"typhoonpink"					// disabled joystick slider
+		Slider.TextColor					"White"						// slider text and lines
+		Slider.TrackColor					"Black2"					// slider bar fill
+		Slider.DisabledTextColor1				"typhoonpink"					// disabled joystick slider
+		Slider.DisabledTextColor2				"typhoonpink"					// disabled joystick slider
 
-		TextEntry.TextColor					"White"							// typing area text 
-		TextEntry.BgColor					"Black2"						// typing area text background fill
-		TextEntry.CursorColor				"White"							// flashing typing cursor
-		TextEntry.DisabledTextColor			"White"							// server ip text
-		TextEntry.SelectedTextColor			"White"							// highlighted text
-		TextEntry.SelectedBgColor			"typhoonpink"					// highlight background fill
-		TextEntry.OutOfFocusSelectedBgColor	"typhoonpink"					// highlight background fill out of focus
+		TextEntry.TextColor					"White"						// typing area text 
+		TextEntry.BgColor					"Black2"					// typing area text background fill
+		TextEntry.CursorColor					"White"						// flashing typing cursor
+		TextEntry.DisabledTextColor				"White"						// server ip text
+		TextEntry.SelectedTextColor				"White"						// highlighted text
+		TextEntry.SelectedBgColor				"typhoonpink"					// highlight background fill
+		TextEntry.OutOfFocusSelectedBgColor			"typhoonpink"					// highlight background fill out of focus
 
-		ToggleButton.SelectedTextColor		"White"							// filter press down text
+		ToggleButton.SelectedTextColor				"White"						// filter press down text
 	
-		Tooltip.TextColor					"White"							// server browser hover tooltip text
-		Tooltip.BgColor						"Black2"						// server browser hover tooltip fill
+		Tooltip.TextColor					"White"						// server browser hover tooltip text
+		Tooltip.BgColor						"Black2"					// server browser hover tooltip fill
 
 		MainMenu.TextColor					"typhoonpink"					// main menu text
-		MainMenu.ArmedTextColor				"White"							// main menu text on hover
-		MainMenu.DepressedTextColor			"White"							// main menu text on press
-		MainMenu.MenuItemHeight				"30"							// main menu text size
-		MainMenu.Inset						"32"							// fade to black time?
-		MainMenu.Backdrop					"Blank"							// colour background fades to
+		MainMenu.ArmedTextColor					"White"						// main menu text on hover
+		MainMenu.DepressedTextColor				"White"						// main menu text on press
+		MainMenu.MenuItemHeight					"30"						// main menu text size
+		MainMenu.Inset						"32"						// fade to black time?
+		MainMenu.Backdrop					"Blank"						// colour background fades to
 
-		Console.TextColor					"White"							// console text when you press enter
+		Console.TextColor					"White"						// console text when you press enter
 
-		"QuickListBGDeselected"				"Blank"							// simplified server browser background fill
-	 	"QuickListBGSelected"       		"typhoonpink"					// simplified server browser background fill selected
+		"QuickListBGDeselected"					"Blank"						// simplified server browser background fill
+	 	"QuickListBGSelected"       				"typhoonpink"					// simplified server browser background fill selected
 		
 		
 		
@@ -185,50 +185,50 @@ Scheme
 		
 	////////////////////////////////////////////////////////////
 	// STUFF THAT ISNT USED OR IS HANDLED BY CLIENTSCHEME.RES //
-	// 														  //
+	// 							  //
 	////////////////////////////////////////////////////////////
 	
-		Button.FocusBorderColor				"Green"							// 
+		Button.FocusBorderColor					"Green"						// 
 	
-		CheckButton.ArmedBgColor			"Blank"							// 
+		CheckButton.ArmedBgColor				"Blank"						// 
 	
-		Frame.AutoSnapRange					"0"								// 	
+		Frame.AutoSnapRange					"0"						// 	
 	
-		GraphPanel.FgColor					"Green"							// 
-		GraphPanel.BgColor					"Green"							// 
+		GraphPanel.FgColor					"Green"						// 
+		GraphPanel.BgColor					"Green"						// 
 	
-		Label.TextBrightColor				"Blue"							// 
+		Label.TextBrightColor					"Blue"						// 
 	
-		ListPanel.TextBgColor				"Green"							// 
+		ListPanel.TextBgColor					"Green"						// 
 	
-		Menu.TextInset						"6"								// 
+		Menu.TextInset						"6"						// 
 
-		Panel.FgColor						"Green"							// 
+		Panel.FgColor						"Green"						// 
 	
-		RadioButton.TextColor				"Green"							// 
-		RadioButton.SelectedTextColor		"Green"							// 
+		RadioButton.TextColor					"Green"						// 
+		RadioButton.SelectedTextColor				"Green"						// 
 
-		RichText.TextColor					"Green"							// 
+		RichText.TextColor					"Green"						// 
 	
-		TextEntry.DisabledBgColor			"Green"							// 
-		TextEntry.FocusEdgeColor			"Green"							// 
+		TextEntry.DisabledBgColor				"Green"						// 
+		TextEntry.FocusEdgeColor				"Green"						// 
 	
-		TreeView.BgColor					"Green"							// 
+		TreeView.BgColor					"Green"						// 
 
-		WizardSubPanel.BgColor				"Green"							// 
+		WizardSubPanel.BgColor					"Green"						// 
 	
-		Console.DevTextColor				"Green"							// 
+		Console.DevTextColor					"Green"						// 
 
-		NewGame.TextColor					"Green"							// 
-		NewGame.FillColor					"Green"							// 
-		NewGame.SelectionColor				"Green"							// 	
-		NewGame.DisabledColor				"Green"							// 
+		NewGame.TextColor					"Green"						// 
+		NewGame.FillColor					"Green"						// 
+		NewGame.SelectionColor					"Green"						// 	
+		NewGame.DisabledColor					"Green"						// 
 
-		MessageDialog.MatchmakingBG			"46 43 42 255"	[$X360]			// 
-		MessageDialog.MatchmakingBGBlack	"22 22 22 255"	[$X360]			// 
+		MessageDialog.MatchmakingBG				"46 43 42 255"	[$X360]				// 
+		MessageDialog.MatchmakingBGBlack			"22 22 22 255"	[$X360]				// 
 
-		MatchmakingMenuItemTitleColor		"White"	[$X360]					// 
-		MatchmakingMenuItemDescriptionColor	"White"	[$X360]					// 
+		MatchmakingMenuItemTitleColor				"White"	[$X360]					// 
+		MatchmakingMenuItemDescriptionColor			"White"	[$X360]					// 
 	
 	
 	
