@@ -1,13 +1,21 @@
 ///////////////////////////////////////////////////////////
 // Edit by tele
 //
-// control F the text to find them in the file
+// I've tried to document each line to the best of my ability 
+// with a small description to help people customize their 
+// own huds
+//	
+// if i missed something or you notice something coloured
+// Green in-game let me know by commenting or on discord
+// tele#0308	
+//	
+///////////////////////////////////////////////////////////
 //
 // Commonly changed aspects:
 //
-// ItemColor & MenuColor 	- controls the left side menu colours (checkpoint menu, radio menu ect)
-// HintMessageFg 			- controls the main timer text colour
-// HudHintText	"4"			- controls the font and text size
+// ItemColor & MenuColor 			- controls the left side menu colours (checkpoint menu, radio menu ect)
+// HintMessageFg 				- controls the main timer text colour
+// HudHintText		"4"			- controls the font and text size
 // Default 		"4"			- controls the side hud font and text size (right side of screen)
 //
 //
@@ -25,17 +33,17 @@ Scheme
 		"Green"				"0 255 0 255"
 		"Blue"				"0 0 255 255"
 		"Yellow" 			"255 255 0 255"
-		"YellowDark"		"255 255 0 120"
-		"TransparentBlack"	"0 0 0 96"
+		"YellowDark"			"255 255 0 120"
+		"TransparentBlack"		"0 0 0 96"
 		"Blank"				"0 0 0 0"
-		"Grey"					"100 100 100 100"
-		"LightGrey"				"60 60 60 60"
-		"Purple"				"173 151 227 255"
+		"Grey"				"100 100 100 100"
+		"LightGrey"			"60 60 60 60"
+		"Purple"			"173 151 227 255"
 		"PurpleDull"			"173 151 227 128"
 		"PurpleVeryDull"		"173 151 227 20"
-		"Black2"					"0 0 0 170"
-		"Black"					"0 0 0 255"
-		"Black3"				"0 0 0 220"
+		"Black2"			"0 0 0 170"
+		"Black"				"0 0 0 255"
+		"Black3"			"0 0 0 220"
 		"typhoonpink"			"251 160 227 255"
 		
 	}
@@ -47,201 +55,201 @@ Scheme
 	BaseSettings
 	{
 		Border.Bright						"typhoonpink"				// top left border for team select
-		Border.Dark							"typhoonpink"				// bottom right border for team select menu
+		Border.Dark						"typhoonpink"				// bottom right border for team select menu
 		
 		Button.TextColor					"typhoonpink"				// team select text colour not hovering
-		Button.BgColor						"Black2"					// team select background colour not hovering
-		Button.ArmedTextColor				"typhoonpink"				// team select text colour hovering	
-		Button.ArmedBgColor					"Black3"					// team select background colour hovering
+		Button.BgColor						"Black2"				// team select background colour not hovering
+		Button.ArmedTextColor					"typhoonpink"				// team select text colour hovering	
+		Button.ArmedBgColor					"Black3"				// team select background colour hovering
 
-		ComboBoxButton.ArrowColor			"typhoonpink"				// spectator bar arrow
-		ComboBoxButton.ArmedArrowColor		"typhoonpink"				// spectator bar arrow hover 
-		ComboBoxButton.BgColor				"Black2"					// spectator bar arrow box fill colour
+		ComboBoxButton.ArrowColor				"typhoonpink"				// spectator bar arrow
+		ComboBoxButton.ArmedArrowColor				"typhoonpink"				// spectator bar arrow hover 
+		ComboBoxButton.BgColor					"Black2"				// spectator bar arrow box fill colour
 
-		Frame.BgColor						"Black2"					// spectator bar background 
-		Frame.FocusTransitionEffectTime		"0.05"						// time it takes for a server browser to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime			"0.05"						// time it takes for a server browser to fade in/out on open/close
+		Frame.BgColor						"Black2"				// spectator bar background 
+		Frame.FocusTransitionEffectTime				"0.05"					// time it takes for a server browser to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime				"0.05"					// time it takes for a server browser to fade in/out on open/close
 		Frame.AutoSnapRange					"0"
 		FrameGrip.Color1					"typhoonpink"				// highlighted spec menu text
-		FrameTitleButton.FgColor			"typhoonpink"				// team select/spectator cross
-		FrameTitleButton.BgColor			"Back2"						// team select/spectator cross box fill
+		FrameTitleButton.FgColor				"typhoonpink"				// team select/spectator cross
+		FrameTitleButton.BgColor				"Back2"					// team select/spectator cross box fill
 
-		Label.TextColor						"Blank"						// SELECT TEAM text & map name top right
-		Label.BgColor						"Blank"						// Misc backgrounds for scoreboard/spectator bars ( LEAVE BLANK )
-		Label.DisabledFgColor1				"Blank"						// map time text drop shadow
-		Label.DisabledFgColor2				"Blank"						// map time text top right of scoreboard
+		Label.TextColor						"Blank"					// SELECT TEAM text & map name top right
+		Label.BgColor						"Blank"					// Misc backgrounds for scoreboard/spectator bars ( LEAVE BLANK )
+		Label.DisabledFgColor1					"Blank"					// map time text drop shadow
+		Label.DisabledFgColor2					"Blank"					// map time text top right of scoreboard
 		
-		Label.TextDullColor					"White"						// text describing the agent you pick
-		Label.TextBrightColor				"White"						// text describing the agent you pick
-		Label.SelectedTextColor				"White"						// text describing the agent you pick
+		Label.TextDullColor					"White"					// text describing the agent you pick
+		Label.TextBrightColor					"White"					// text describing the agent you pick
+		Label.SelectedTextColor					"White"					// text describing the agent you pick
 
-		Menu.TextColor						"White"						// spectator bar menu text colour
-		Menu.BgColor						"Black2"					// spectator bar menu background fill
-		Menu.ArmedTextColor					"White"						// spectator bar menu text colour hover
+		Menu.TextColor						"White"					// spectator bar menu text colour
+		Menu.BgColor						"Black2"				// spectator bar menu background fill
+		Menu.ArmedTextColor					"White"					// spectator bar menu text colour hover
 		Menu.ArmedBgColor					"typhoonpink"				// spectator bar menu background fill hover
 		
-		Panel.BgColor						"Blank"						// some panel background fill( LEAVE BLANK )
+		Panel.BgColor						"Blank"					// some panel background fill( LEAVE BLANK )
 
-		PropertySheet.TransitionEffectTime	"0.25"						// time to change from one tab to another
+		PropertySheet.TransitionEffectTime			"0.25"					// time to change from one tab to another
 
-		RichText.BgColor					"Black2"					// team select background fill
-		RichText.SelectedTextColor			"typhoonpink"				// team select highlighted text 
-		RichText.SelectedBgColor			"Black2"					// team select highlighted background 
+		RichText.BgColor					"Black2"				// team select background fill
+		RichText.SelectedTextColor				"typhoonpink"				// team select highlighted text 
+		RichText.SelectedBgColor				"Black2"				// team select highlighted background 
 
-		ScrollBarButton.FgColor				"typhoonpink"				// team select bar square arrow
-		ScrollBarButton.BgColor				"Black2"					// team select bar square fill
-		ScrollBarButton.ArmedFgColor		"typhoonpink"				// team select bar square arrow hover
-		ScrollBarButton.ArmedBgColor		"Black3"					// team select bar square fill hover
-		ScrollBarButton.DepressedFgColor	"Black3"					// team select bar square arrow on click
-		ScrollBarButton.DepressedBgColor	"Black3"					// team select bar square fill on click
-		ScrollBarSlider.FgColor				"typhoonpink"				// team select slider
-		ScrollBarSlider.BgColor				"Black2"					// team select slider background 
+		ScrollBarButton.FgColor					"typhoonpink"				// team select bar square arrow
+		ScrollBarButton.BgColor					"Black2"				// team select bar square fill
+		ScrollBarButton.ArmedFgColor				"typhoonpink"				// team select bar square arrow hover
+		ScrollBarButton.ArmedBgColor				"Black3"				// team select bar square fill hover
+		ScrollBarButton.DepressedFgColor			"Black3"				// team select bar square arrow on click
+		ScrollBarButton.DepressedBgColor			"Black3"				// team select bar square fill on click
+		ScrollBarSlider.FgColor					"typhoonpink"				// team select slider
+		ScrollBarSlider.BgColor					"Black2"				// team select slider background 
 
 		TextEntry.TextColor					"typhoonpink"				// spectator bar menu text
-		TextEntry.BgColor					"Black2"					// spectator bar menu fill
-		TextEntry.SelectedTextColor			"White"						// spectator bar menu text highlighted
-		TextEntry.SelectedBgColor			"typhoonpink"				// spectator bar menu text background highlighted
+		TextEntry.BgColor					"Black2"				// spectator bar menu fill
+		TextEntry.SelectedTextColor				"White"					// spectator bar menu text highlighted
+		TextEntry.SelectedBgColor				"typhoonpink"				// spectator bar menu text background highlighted
 
-		"FgColor"							"Blank"						// colour of the cs icon in team select
+		"FgColor"						"Blank"					// colour of the cs icon in team select
 
-		"MapDescriptionText"				"typhoonpink" 				// the text used in the choose team window
+		"MapDescriptionText"					"typhoonpink" 				// the text used in the choose team window
 		
-		"ItemColor"							"White"						// radio text 2
-		"MenuColor"							"typhoonpink" 				// radio text 1
-		"MenuBoxBg"							"0 0 0 0"					// radio menu background
+		"ItemColor"						"White"					// radio text 2
+		"MenuColor"						"typhoonpink" 				// radio text 1
+		"MenuBoxBg"						"0 0 0 0"				// radio menu background
 		
 
-		"HintMessageFg"						"White"						// timer text
-		"HintMessageBg" 					"Blank"						// timer background
+		"HintMessageFg"						"White"					// timer text
+		"HintMessageBg" 					"Blank"					// timer background
 		
-        "Normal"            				"typhoonpink"				// weapon icon select colour
+       		 "Normal"            					"typhoonpink"				// weapon icon select colour
 		
-		"CT_Blue"							"typhoonpink"				// text on player crosshair hovering person
-		"T_Red"								"typhoonpink"				// text on player crosshair hovering person
+		"CT_Blue"						"typhoonpink"				// text on player crosshair hovering person
+		"T_Red"							"typhoonpink"				// text on player crosshair hovering person
 
 	
 		
 	////////////////////////////////////////////////////////////
 	// STUFF THAT ISNT USED OR IS HANDLED BY SOURCESCHEME.RES //
-	// 														  //
+	// 							  //
 	////////////////////////////////////////////////////////////
 	
-		Border.Selection					"Green"					// 
-		Border.BuyPreset					"Green"					// 
+		Border.Selection				"Green"					// 
+		Border.BuyPreset				"Green"					// 
 		
 		Button.DepressedTextColor			"Green"	 				// 
 		Button.DepressedBgColor				"Green"					// 
 		
 		CheckButton.TextColor				"Green"					// 
-		CheckButton.SelectedTextColor		"Green"					// 
-		CheckButton.BgColor					"Green"					// 
+		CheckButton.SelectedTextColor			"Green"					// 
+		CheckButton.BgColor				"Green"					// 
 		CheckButton.Border1  				"Green" 				// 
 		CheckButton.Border2  				"Green" 				//
-		CheckButton.Check					"Green"					// 
+		CheckButton.Check				"Green"					// 
 		
-		ComboBoxButton.DisabledBgColor		"Green"					// 
+		ComboBoxButton.DisabledBgColor			"Green"					// 
 				
-		FrameTitleButton.DisabledFgColor 	"Green"					// 
-		FrameTitleButton.DisabledBgColor 	"Green"					// 
+		FrameTitleButton.DisabledFgColor 		"Green"					// 
+		FrameTitleButton.DisabledBgColor 		"Green"					// 
 		FrameSystemButton.FgColor			"Green"					// 
 		FrameSystemButton.BgColor			"Green"					// 
 		FrameSystemButton.Icon				"Green"					// 
-		FrameSystemButton.DisabledIcon		"Green"					//
+		FrameSystemButton.DisabledIcon			"Green"					//
 		FrameTitleBar.TextColor				"Green"					// 
 		FrameTitleBar.BgColor				"Green"					// 
-		FrameTitleBar.DisabledTextColor		"Green"					// 
-		FrameTitleBar.DisabledBgColor		"Green"					// 
+		FrameTitleBar.DisabledTextColor			"Green"					// 
+		FrameTitleBar.DisabledBgColor			"Green"					// 
 
-		GraphPanel.FgColor					"Green"					// 
-		GraphPanel.BgColor					"Green"					// 
+		GraphPanel.FgColor				"Green"					// 
+		GraphPanel.BgColor				"Green"					// 
 	
 		Frame.OutOfFocusBgColor				"Green"					// 
-		FrameGrip.Color2					"Green"					//
+		FrameGrip.Color2				"Green"					//
 
-		ListPanel.TextColor					"Green"					//
-		ListPanel.BgColor					"Green"					// 
+		ListPanel.TextColor				"Green"					//
+		ListPanel.BgColor				"Green"					// 
 		ListPanel.SelectedTextColor			"Green"					// 
 		ListPanel.SelectedBgColor			"Green"					// 
-		ListPanel.SelectedOutOfFocusBgColor	"Green"					// 
-		ListPanel.EmptyListInfoTextColor	"Green"					//
+		ListPanel.SelectedOutOfFocusBgColor		"Green"					// 
+		ListPanel.EmptyListInfoTextColor		"Green"					//
 		
-		Menu.TextInset						"6"						// 
+		Menu.TextInset					"6"					// 
 		
-		Chat.TypingText						"Green"					// 
-	
-		Panel.FgColor						"Green"					// 
-		
-		HTML.BgColor						"Green"					// 
+		Chat.TypingText					"Green"					// 
 
-		"BuyPreset.BgColor"					"Green"					// 
+		Panel.FgColor					"Green"					// 
+		
+		HTML.BgColor					"Green"					// 
+
+		"BuyPreset.BgColor"				"Green"					// 
 		"BuyPresetListBox.BgColor"			"Green"					// 
-		"Popup.BgColor"						"Green"					// 
+		"Popup.BgColor"					"Green"					// 
 		
-		SectionedListPanel.HeaderTextColor	"Green"					// 
-		SectionedListPanel.HeaderBgColor	"Green"					// 
-		SectionedListPanel.DividerColor		"Green"					// 
-		SectionedListPanel.TextColor		"Green"					// 
-		SectionedListPanel.BrightTextColor	"Green"					// 
+		SectionedListPanel.HeaderTextColor		"Green"					// 
+		SectionedListPanel.HeaderBgColor		"Green"					// 
+		SectionedListPanel.DividerColor			"Green"					// 
+		SectionedListPanel.TextColor			"Green"					// 
+		SectionedListPanel.BrightTextColor		"Green"					// 
 		SectionedListPanel.BgColor			"Green"					// 
-		SectionedListPanel.SelectedTextColor			"Green"		// 
-		SectionedListPanel.SelectedBgColor				"Green"		// 
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Green"		// 
-		SectionedListPanel.OutOfFocusSelectedBgColor	"Green"		// 
+		SectionedListPanel.SelectedTextColor		"Green"					// 
+		SectionedListPanel.SelectedBgColor		"Green"					// 
+		SectionedListPanel.OutOfFocusSelectedTextColor	"Green"					// 
+		SectionedListPanel.OutOfFocusSelectedBgColor	"Green"					// 
 		
-		Slider.NobColor						"Green"					// 
-		Slider.TextColor					"Green"					// 
-		Slider.TrackColor					"Green"					// 
+		Slider.NobColor					"Green"					// 
+		Slider.TextColor				"Green"					// 
+		Slider.TrackColor				"Green"					// 
 		Slider.DisabledTextColor1			"Green"					// 
 		Slider.DisabledTextColor2			"Green"					// 
 		
 		TextEntry.CursorColor				"Green"					// 
 		TextEntry.DisabledTextColor			"Green"					// 
 		TextEntry.DisabledBgColor			"Green"					// 
-		TextEntry.OutOfFocusSelectedBgColor	"Green"					// 
+		TextEntry.OutOfFocusSelectedBgColor		"Green"					// 
 		TextEntry.FocusEdgeColor			"Green"					// 
 
-		ToggleButton.SelectedTextColor		"Green"					// 
+		ToggleButton.SelectedTextColor			"Green"					// 
 
-		Tooltip.TextColor					"Green"					// 
-		Tooltip.BgColor						"Green"					// 
+		Tooltip.TextColor				"Green"					// 
+		Tooltip.BgColor					"Green"					// 
 
-		TreeView.BgColor					"Green"					// 
+		TreeView.BgColor				"Green"					// 
 
 		WizardSubPanel.BgColor				"Green"					// 
 		
 
-		"ViewportBG"						"Green"
-		"team0"								"Green"					// 
-		"team1"								"Green" 					// 
-		"team2"								"Green" 					// 
+		"ViewportBG"					"Green"
+		"team0"						"Green"					// 
+		"team1"						"Green" 				// 
+		"team2"						"Green" 				// 
 		
-		"CT_Blue"							"Green"					// 
-		"T_Red"								"Green"					// 
-		"Hostage_Yellow"					"Green"					// 
-		"HudIcon_Green"						"Green" 					// 
-		"HudIcon_Red"						"Green"					// 
+		"CT_Blue"					"Green"					// 
+		"T_Red"						"Green"					// 
+		"Hostage_Yellow"				"Green"					// 
+		"HudIcon_Green"					"Green" 				// 
+		"HudIcon_Red"					"Green"					// 
 		
-		"SelectionNumberFg"					"Green"					// 
-		"SelectionTextFg"					"Green"					// 
+		"SelectionNumberFg"				"Green"					// 
+		"SelectionTextFg"				"Green"					// 
 		"SelectionEmptyBoxBg" 				"Green"					// 
-		"SelectionBoxBg" 					"Green"					// 
+		"SelectionBoxBg" 				"Green"					// 
 		"SelectionSelectedBoxBg" 			"Green"					// 
 		
 		PropertySheet.TextColor				"Green"					// 
-		PropertySheet.SelectedTextColor		"Green"					// 
+		PropertySheet.SelectedTextColor			"Green"					// 
 		
 		RadioButton.TextColor				"Green"					// 
-		RadioButton.SelectedTextColor		"Green"					// 
+		RadioButton.SelectedTextColor			"Green"					// 
 
-		RichText.TextColor					"Green"					// 
+		RichText.TextColor				"Green"					// 
 		
-		"ProgressBarFg"						"Green"					//
+		"ProgressBarFg"					"Green"					//
 
-        "Yellowish"        					"Green"					// 
+     		"Yellowish"        				"Green"					// 
 		"Caution"           				"Green"					// 
 		
-		ProgressBar.FgColor					"Green"					// 
-		ProgressBar.BgColor					"Green"					// 
+		ProgressBar.FgColor				"Green"					// 
+		ProgressBar.BgColor				"Green"					// 
 
 
 
@@ -250,18 +258,18 @@ Scheme
 
 
 		
-		"Main.Title1.X"		"9999"									// 
-		"Main.Title1.Y"		"9999"
-		"Main.Title1.Color"	"Green"
-		"Main.Title2.X"		"9999"									// 
-		"Main.Title2.Y"		"9999"
-		"Main.Title2.Color"	"Green"
-		"Main.Title3.X"		"9999"									// the big ass counter strike menu text
-		"Main.Title3.Y"		"9999"
-		"Main.Title3.Color"	"Green"		
-		"Main.Menu.X"		"30"									// menu menu buttons
-		"Main.Menu.Y"		"250"
-		"Main.BottomBorder"	"64"									// 
+		"Main.Title1.X"		"9999"								// 
+		"Main.Title1.Y"		"9999"								//
+		"Main.Title1.Color"	"Green"								//
+		"Main.Title2.X"		"9999"								// 
+		"Main.Title2.Y"		"9999"								//
+		"Main.Title2.Color"	"Green"								//
+		"Main.Title3.X"		"9999"								// the big ass counter strike menu text
+		"Main.Title3.Y"		"9999"								//
+		"Main.Title3.Color"	"Green"								//
+		"Main.Menu.X"		"30"								// menu menu buttons
+		"Main.Menu.Y"		"250"								//
+		"Main.BottomBorder"	"64"								// 
 	}
 
 	//
