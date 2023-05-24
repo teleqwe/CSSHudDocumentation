@@ -19,8 +19,8 @@ Scheme
 	Colors
 	{
 		"White"					"255 255 255 255"
-		"TransparentBlack"		"5 5 5 100"
-		"TransparentBlack2"		"5 5 5 50"
+		"TransparentBlack"			"5 5 5 100"
+		"TransparentBlack2"			"5 5 5 50"
 		"Blank"					"0 0 0 0"	
 		"Red"					"255 0 0 255"
 		"Green"					"0 255 0 255"
@@ -29,12 +29,12 @@ Scheme
 		"Grey"					"100 100 100 100"
 		"LightGrey"				"60 60 60 60"
 		"Purple"				"173 151 227 255"
-		"PurpleDull"			"173 151 227 128"
-		"PurpleVeryDull"		"173 151 227 20"
-		"Black2"					"0 0 0 170"
+		"PurpleDull"				"173 151 227 128"
+		"PurpleVeryDull"			"173 151 227 20"
+		"Black2"				"0 0 0 170"
 		"Black"					"0 0 0 255"
 		"Black3"				"0 0 0 220"
-		"typhoonpink"			"251 160 227 255"
+		"typhoonpink"				"251 160 227 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -45,36 +45,36 @@ Scheme
 	{
 		
 		Border.Bright						"typhoonpink"				// top left border 
-		Border.Dark							"typhoonpink"				// bottom right border
+		Border.Dark						"typhoonpink"				// bottom right border
 
-		Label.TextColor						"White" 					// the Say: text
-		Label.BgColor						"Blank" 					// the Say: text background
+		Label.TextColor						"White" 				// the Say: text
+		Label.BgColor						"Blank" 				// the Say: text background
 
 
-		Panel.FgColor						"White"						// chat typing colour
-		Panel.BgColor						"Blank"						// chat frontground colour (leave blank)
+		Panel.FgColor						"White"					// chat typing colour
+		Panel.BgColor						"Blank"					// chat frontground colour (leave blank)
 
-		PropertySheet.TransitionEffectTime	"0.25"						// dont delete this
+		PropertySheet.TransitionEffectTime			"0.25"					// dont delete this
 
-		RichText.SelectedTextColor			"White"						// selected text
-		RichText.SelectedBgColor			"typhoonpink"				// selected text background
+		RichText.SelectedTextColor				"White"					// selected text
+		RichText.SelectedBgColor				"typhoonpink"				// selected text background
 
-		ScrollBar.Wide						"8"							// scroll bar width
+		ScrollBar.Wide						"8"					// scroll bar width
 
-		ScrollBarButton.FgColor				"White"						// scroll bar arrow					
-		ScrollBarButton.BgColor				"Blank"						// scroll bar arrow box fill
-		ScrollBarButton.ArmedFgColor		"White"						// scroll bar arrow on hover
-		ScrollBarButton.ArmedBgColor		"Blank"						// scroll bar arrow box fill on hover
-		ScrollBarButton.DepressedFgColor	"White"						// scroll bar arrow on click
-		ScrollBarButton.DepressedBgColor	"Blank"						// scroll bar arrow box fill on click
+		ScrollBarButton.FgColor					"White"					// scroll bar arrow					
+		ScrollBarButton.BgColor					"Blank"					// scroll bar arrow box fill
+		ScrollBarButton.ArmedFgColor				"White"					// scroll bar arrow on hover
+		ScrollBarButton.ArmedBgColor				"Blank"					// scroll bar arrow box fill on hover
+		ScrollBarButton.DepressedFgColor			"White"					// scroll bar arrow on click
+		ScrollBarButton.DepressedBgColor			"Blank"					// scroll bar arrow box fill on click
 
-		ScrollBarSlider.FgColor				"Blank"						// scroll bar 
-		ScrollBarSlider.BgColor				"Blank"						// scroll bar background
+		ScrollBarSlider.FgColor					"Blank"					// scroll bar 
+		ScrollBarSlider.BgColor					"Blank"					// scroll bar background
 
 			
 		TextEntry.BgColor					"TransparentBlack"			// chat box background fill
-		TextEntry.SelectedTextColor			"White"						// chat box text highlighted
-		TextEntry.SelectedBgColor			"typhoonpink"				// chat box text highlighted background
+		TextEntry.SelectedTextColor				"White"					// chat box text highlighted
+		TextEntry.SelectedBgColor				"typhoonpink"				// chat box text highlighted background
 
 	}
 
