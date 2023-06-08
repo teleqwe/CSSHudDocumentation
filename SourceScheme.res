@@ -1,14 +1,15 @@
 ///////////////////////////////////////////////////////////
-// Edit by tele
-//
-// I've tried to document each line to the best of my ability 
-// with a small description to help people customize their 
-// own huds
-//	
-// if i missed something or you notice something coloured
-// Green in-game let me know by commenting or on discord
-// tele#0308	
-//	
+/*
+Edit by tele
+
+I've tried to document each line to the best of my ability 
+with a small description to help people customize their 
+own huds
+	
+if i missed something or you notice something coloured
+Green in-game let me know by commenting or on discord
+tele#0388
+*/
 ///////////////////////////////////////////////////////////
 Scheme
 {
