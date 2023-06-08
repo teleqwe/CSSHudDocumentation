@@ -1,24 +1,28 @@
 ///////////////////////////////////////////////////////////
-// Edit by tele
-//
-// I've tried to document each line to the best of my ability 
-// with a small description to help people customize their 
-// own huds
-//	
-// if i missed something or you notice something coloured
-// Green in-game let me know by commenting or on discord
-// tele#0308	
-//	
-///////////////////////////////////////////////////////////
-//
-// Commonly changed aspects:
-//
-// ItemColor & MenuColor 			- controls the left side menu colours (checkpoint menu, radio menu ect)
-// HintMessageFg 				- controls the main timer text colour
-// HudHintText		"4"			- controls the font and text size
-// Default 		"4"			- controls the side hud font and text size (right side of screen)
-//
-//
+/*
+Edit by tele
+
+I've tried to document each line to the best of my ability 
+with a small description to help people customize their 
+own huds
+	
+if i missed something or you notice something coloured
+Green in-game let me know by commenting or on discord
+tele#0388	
+	
+
+
+Names of commonly changed aspects, control+f to find them in the doctument
+
+timer colours:
+ItemColor & MenuColor 				- controls the left side menu colours (checkpoint menu, radio menu ect)
+HintMessageFg 					- controls the main timer text colour
+
+timer/sidehud fonts/size:
+HudHintText		"4"			- the main timer FONT and TEXT SIZE
+Default 		"4"			- side hud FONT and TEXT SIZE
+
+*/
 ///////////////////////////////////////////////////////////
 Scheme
 {
