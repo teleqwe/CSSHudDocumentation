@@ -314,7 +314,7 @@ Scheme
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
-			"4"
+			"4" // SIDEHUD FONT AND TEXT SIZE
 			{
 				"name"		"URW Gothic L"
 				"tall"		"20"
