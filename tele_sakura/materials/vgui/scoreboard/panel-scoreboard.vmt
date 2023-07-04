@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/scoreboard/panel-scoreboard"
+	"$translucent" 1
+    $gammacolorread 1
+    $linearwrite 1
+    $alpha 1
+
+}
