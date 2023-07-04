@@ -1,3 +1,5 @@
+**Note: This is made for native resolution, i dont have 1440p so i cannot help you with trouble shooting that**  
+
 **How to install:**
 1. Download tele_sakura from releases or https://gamebanana.com/mods/445582
 2. Extract the folder(tele_sakura) to C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\custom
