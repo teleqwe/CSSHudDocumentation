@@ -11,6 +11,12 @@ IF YOUR FONT IS NOT WORKING MAKE SURE YOU HAVE ACTUALLY INSTALLED IT FROM THE TT
 Ive documented basically everything to do with colour customization but skipped alot of the moving/size aspects so ill try answer most of them in FAQ
 If what i listed here doesnt help dm me on discord and ill try help tele#0388 / tele4
 
+If none of the FAQs help you find what youre looking for here is a general guide of where things are located:
+clientshceme controls in-game elements mainly timer/menus
+sourcescheme controls everything main menu related and team select
+hudlayout controls size and position of in-game elements
+chatscheme for chat fonts
+basechat for chat size and position
 
 GENERAL FAQ:
 
