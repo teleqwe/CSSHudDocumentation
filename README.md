@@ -1,4 +1,4 @@
-**Removed hud download from here to stop confusion, get it from gb link below.**
+**Removed hud download from here to stop confusion, get it from gb link below.**  
 **Note: This is made for native resolution, i dont have 1440p so i cannot help you with trouble shooting that**  
 
 **These files are just for reference and are from my sakura hud, they are not default.**
