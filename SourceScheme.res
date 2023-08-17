@@ -35,6 +35,7 @@ Scheme
 		"Black"				"0 0 0 255"
 		"Black3"			"0 0 0 220"
 		"typhoonpink"			"251 160 227 255"
+		"SteamLightGreen"		"158 195 79 255" // dont delete this - it fixes the black KSF rank
 		
 	}
 
