@@ -74,3 +74,6 @@ A: Open HudLayout.res located in /scripts/ and right at the top should be "HudHi
 
 **Q: How do i move my chat? or change the dimensions?**  
 A: Open basechat.res located in resource/UI and right at the top should be "HudChat" under the section use "xpos" & "ypos" to move and "wide" & "tall" to change dimensions  
+
+
+Thanks to: typhoon, one, nira, zasbu
