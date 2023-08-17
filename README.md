@@ -1,7 +1,10 @@
+**Removed hud download from here to stop confusion, get it from gb link below.**
 **Note: This is made for native resolution, i dont have 1440p so i cannot help you with trouble shooting that**  
 
-**How to install:**
-1. Download tele_sakura from releases or https://gamebanana.com/mods/445582
+**These files are just for reference and are from my sakura hud, they are not default.**
+
+**How to get the full hud:**
+1. Download tele_sakura from https://gamebanana.com/mods/445582
 2. Extract the folder(tele_sakura) to C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\custom
 If you do not have a custom folder, create one.
 
@@ -27,7 +30,7 @@ basechat for chat size and position
 A: This is handled by scripts/HudLayout.res each element is handled separately fortunately they are named accurately so just scroll/control+f through until you find what you want. To unhide change "visible" "0" & "enabled" "0" back to 1, for moving edit the xpos and ypos numbers  
 
 **Q: How do i globally change the font?**  
-A: Replace all "URW Gothic L" instances with your new font name  
+A: Replace all "URW Gothic L" instances with your new font name
 
 **Q: Why arent my changes applying?**  
 A: you need to restart your game after every change  
