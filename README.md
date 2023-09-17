@@ -1,5 +1,5 @@
 **Removed hud download from here to stop confusion, get it from gb link below.**  
-**Note: This is made for native resolution, i dont have 1440p so i cannot help you with trouble shooting that**  
+**Note: This is made for native resolution, IF YOU HAVE 1440P MONITOR EDIT THE "5" SECTIONS INSTEAD OF "4"**  
 
 **These files are just for reference and are from my sakura hud, they are not default.**
 
@@ -54,7 +54,7 @@ A: Open clientscheme.res and go to line 114 or control+f "HintMessageFg" and rep
 Note: this will change center timer & right side hud colours but NOT the radio menu (the checkpoint menu on bhop timers). To change that edit lines 109 & 110 ("ItemColor"	& "MenuColor")  
 
 
-**FONT/SIZE FAQ:**  
+**FONT/SIZE FAQ:**  Note: IF YOU HAVE 1440P MONITOR EDIT THE "5" SECTIONS INSTEAD OF "4".  
 
 **Q: How do i change the font & size of my center timer?**  
 A: Open clientscheme.res and go to line 857 or control+f "HudHintText". Under the "4" section we can change font by replacing "URW Gothic L" with desired font name, for size edit the "tall" "20"; 20 being the font size.  
@@ -63,6 +63,7 @@ Note: most fonts break below 18/20 size (resolution/scaling/weight issue idk).
 
 **Q: How do i change the right side text font & size?**  
 A: Open clientscheme.res and go to line 305 or control+f "Default". Under the "4" section we can change font by replacing "URW Gothic L" with desired font name, for size edit the "tall" "20"; 20 being the font size.  
+
 
 **Q: How do i change my JHUD/KSF SPEEDOMETER font & size**  
 A: Open clientscheme.res and go to line 844 or control+f "CenterPrintText". Under the "1" section replace "URW Gothic L" with desired font name, for font size edit the "tall" "12"; 12 being the font size.  
