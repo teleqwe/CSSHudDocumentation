@@ -54,7 +54,8 @@ A: Open clientscheme.res and go to line 114 or control+f "HintMessageFg" and rep
 Note: this will change center timer & right side hud colours but NOT the radio menu (the checkpoint menu on bhop timers). To change that edit lines 109 & 110 ("ItemColor"	& "MenuColor")  
 
 
-**FONT/SIZE FAQ:**  *Note: IF YOU HAVE 1440P MONITOR EDIT THE "5" SECTIONS INSTEAD OF "4".*  
+**FONT/SIZE FAQ:**  
+*Note: IF YOU HAVE 1440P MONITOR EDIT THE "5" SECTIONS INSTEAD OF "4".*  
 
 **Q: How do i change the font & size of my center timer?**  
 A: Open clientscheme.res and go to line 857 or control+f "HudHintText". Under the "4" section we can change font by replacing "URW Gothic L" with desired font name, for size edit the "tall" "20"; 20 being the font size.  
