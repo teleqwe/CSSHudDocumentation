@@ -51,7 +51,7 @@ Scheme
 
 
 		Panel.FgColor						"White"					// chat typing colour
-		Panel.BgColor						"Blank"					// chat frontground colour (leave blank)
+		Panel.BgColor						"Blank"					// chat foreground colour (leave blank)
 
 		PropertySheet.TransitionEffectTime			"0.25"					// dont delete this
 
