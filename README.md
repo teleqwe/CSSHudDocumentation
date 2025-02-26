@@ -1,3 +1,6 @@
+update: some of this text is outdated from the css update feb 19 2025
+i dont actively play css or mess around with huds anymore so please really try figure things out yourself before msging me ty
+
 **Removed hud download from here to stop confusion, get it from gb link below.**  
 **Note: This is made for native resolution, IF YOU HAVE 1440P MONITOR EDIT THE "5" SECTIONS INSTEAD OF "4"**  
 
