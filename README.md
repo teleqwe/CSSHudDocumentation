@@ -2,6 +2,6 @@ Uploading these files as reference for people to work on their own HUDs, i have 
 
 Formatting pretty caveman-y but its a start. Hopefully people can find what theyre looking for.
 
-Created a program based off this repo, a live in-game editing hud maker. https://github.com/teleqwe/hudeditor
+Created a program based off this documentation, a live in-game editing hud maker. https://github.com/teleqwe/hudeditor
 
 
